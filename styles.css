@@ -92,10 +92,10 @@ a{
 .contact-avatar-wrap{
   position:absolute;
   left:50%;
-  bottom:-64px;
+  bottom:-76px;
   transform:translateX(-50%);
-  width:144px;
-  height:144px;
+  width:165px;
+  height:165px;
   border-radius:50%;
   background:#fff;
   padding:9px;
@@ -114,7 +114,7 @@ a{
 
 /* Index page */
 .content{
-  padding:86px 28px 36px;
+  padding:100px 28px 36px;
   text-align:center;
 }
 
@@ -248,7 +248,7 @@ h1{
 }
 
 .contact-tabs{
-  padding:185px 28px 38px;
+  padding:195px 28px 38px;
   display:grid;
   gap:16px;
 }
