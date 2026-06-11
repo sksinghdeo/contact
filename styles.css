@@ -197,14 +197,14 @@ h1{
   opacity:.95;
 }
 
-/* Contact page - polished final */
+/* Contact page - final polished version */
 
 .contact-page{
   background:#ffffff;
 }
 
 .contact-hero{
-  height:205px;
+  height:225px;
   background:linear-gradient(180deg,#d90000 0%,#d90000 62%,#ffffff 63%);
   position:relative;
 }
@@ -247,15 +247,15 @@ h1{
 .contact-avatar-wrap{
   position:absolute;
   left:50%;
-  bottom:-72px;
+  bottom:-82px;
   transform:translateX(-50%);
-  width:158px;
-  height:158px;
+  width:178px;
+  height:178px;
   border-radius:50%;
   background:#fff;
   padding:9px;
   z-index:3;
-  box-shadow:0 8px 28px rgba(0,0,0,.16);
+  box-shadow:0 10px 30px rgba(0,0,0,.16);
 }
 
 .contact-avatar{
@@ -267,7 +267,7 @@ h1{
 }
 
 .contact-content{
-  padding:92px 28px 38px;
+  padding:104px 28px 40px;
   text-align:center;
 }
 
@@ -281,7 +281,7 @@ h1{
 }
 
 .contact-subtitle{
-  margin:14px 0 36px;
+  margin:12px 0 34px;
   font-size:17px;
   line-height:1.35;
   color:#06101f;
@@ -290,13 +290,15 @@ h1{
 .contact-tabs{
   display:grid;
   gap:14px;
+  max-width:380px;
+  margin:0 auto;
 }
 
 .contact-tab{
   background:#454545;
   color:#fff;
-  border-radius:3px;
-  min-height:74px;
+  border-radius:4px;
+  min-height:72px;
   display:flex;
   align-items:center;
   padding:13px 18px;
@@ -314,17 +316,17 @@ h1{
 }
 
 .contact-tab-icon{
-  width:46px;
-  height:46px;
+  width:45px;
+  height:45px;
   display:flex;
   align-items:center;
   justify-content:center;
-  flex:0 0 46px;
+  flex:0 0 45px;
 }
 
 .contact-tab-icon img{
-  max-width:46px;
-  max-height:46px;
+  max-width:45px;
+  max-height:45px;
   object-fit:contain;
 }
 
@@ -343,7 +345,7 @@ h1{
 
 .contact-tab-value{
   display:block;
-  font-size:18px;
+  font-size:17px;
   color:#ffffff;
   line-height:1.25;
   word-break:break-word;
@@ -352,7 +354,7 @@ h1{
 .contact-tab-title{
   flex:1;
   text-align:left;
-  font-size:22px;
+  font-size:21px;
   font-weight:650;
   color:#ffffff;
 }
@@ -360,6 +362,7 @@ h1{
 .add-contact-tab{
   margin-top:6px;
   background:#d90000;
+  min-height:76px;
 }
 
 .add-contact-tab:hover{
@@ -370,6 +373,16 @@ h1{
   .contact-content{
     padding-left:22px;
     padding-right:22px;
+  }
+
+  .contact-avatar-wrap{
+    width:166px;
+    height:166px;
+    bottom:-76px;
+  }
+
+  .contact-content{
+    padding-top:98px;
   }
 
   .contact-name{
