@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Shashank Singh Deo
+N:Singh Deo;Shashank;;;
+TITLE:Robotics & Mechatronics Engineer
+TEL;TYPE=CELL:+16232809771
+EMAIL;TYPE=INTERNET:singhdeoshashank@gmail.com
+ADR;TYPE=WORK:;;Tempe;AZ;;;United States
+URL;TYPE=LinkedIn:https://www.linkedin.com/in/shashanksinghdeo/
+PHOTO;VALUE=URI:https://singhdeoshashank.github.io/contact/assets/myimage.JPG
+END:VCARD
