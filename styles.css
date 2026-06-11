@@ -315,6 +315,11 @@ h1{
 
 .add-contact-tab{
   margin-top:8px;
+  background:#d90000;
+}
+
+.add-contact-tab:hover{
+  background:#c40000;
 }
 
 @media(max-width:380px){
