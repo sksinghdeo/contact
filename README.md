@@ -1,35 +1,48 @@
+<div align="center">
+
 # Contact Page
 
-A polished GitHub Pages contact/link hub for Shashank Singh Deo.
+### Personal contact and portfolio link hub for Shashank Singh Deo
+
+GitHub Pages · Responsive Web Design · Contact Card · Portfolio Links · vCard
+
+[Live Page](https://sksinghdeo.github.io/contact/)
+
+</div>
+
+---
+
+## Overview
+
+This repository hosts my public contact and portfolio link hub. It is designed as a clean mobile-first landing page for recruiters, hiring managers, and professional contacts.
+
+The page includes quick access to my resume, GitHub, portfolio, scheduling link, and direct contact card.
+
+---
 
 ## Pages
 
-- `index.html` — public link hub for resume, LinkedIn, GitHub, projects, portfolio, scheduling, and contact card.
-- `contact.html` — direct contact card with phone, email, LinkedIn, GitHub, location, scheduling, and downloadable vCard.
-- `Shashank_Singh_Deo.vcf` — contact card import file.
-- `styles.css` — responsive glass/neon portfolio styling.
+| Page | Purpose |
+|---|---|
+| `index.html` | Main link hub with resume, GitHub, scheduling, portfolio, and contact links |
+| `contact.html` | Contact card with phone, email, location, and downloadable vCard |
+| `Shashank_Singh_Deo.vcf` | Contact import file |
+| `styles.css` | Responsive page styling |
 
-## Notes
+---
 
-The page uses `assets/myimage.JPG` if it exists. If that image is missing, the layout falls back to an initials avatar so the page still looks clean.
+## Features
 
-## GitHub Pages
+- Mobile-first contact landing page
+- Resume, GitHub, portfolio, and scheduling links
+- Direct phone and email actions
+- Downloadable vCard
+- GitHub Pages deployment
+- Fallback initials avatar if profile image is unavailable
 
-Recommended Pages setting:
+---
 
-```text
-Source: Deploy from a branch
-Branch: main
-Folder: /root
-```
-
-Public URL:
+## Live Site
 
 ```text
 https://sksinghdeo.github.io/contact/
-```
-
-
-## v2 update
-
-Quick Links order updated to Resume, GitHub, Schedule a Meeting, Portfolio, and Contact. The link cards now use the repo image icons, including `assets/github.png` for GitHub.
