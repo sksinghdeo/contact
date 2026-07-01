@@ -28,3 +28,8 @@ Public URL:
 ```text
 https://sksinghdeo.github.io/contact/
 ```
+
+
+## v2 update
+
+Quick Links order updated to Resume, GitHub, Schedule a Meeting, Portfolio, and Contact. The link cards now use the repo image icons, including `assets/github.png` for GitHub.
