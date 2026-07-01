@@ -2,10 +2,12 @@ BEGIN:VCARD
 VERSION:3.0
 FN:Shashank Singh Deo
 N:Singh Deo;Shashank;;;
-TITLE:Robotics & Mechatronics Engineer
+TITLE:Robotics & EV Systems Engineer
 TEL;TYPE=CELL:+16232809771
 EMAIL;TYPE=INTERNET:singhdeoshashank@gmail.com
 ADR;TYPE=WORK:;;Tempe;AZ;;;United States
 URL;TYPE=LinkedIn:https://www.linkedin.com/in/shashanksinghdeo/
+URL;TYPE=GitHub:https://github.com/sksinghdeo
+URL;TYPE=Portfolio:https://sksinghdeo.github.io/contact/
 PHOTO;VALUE=URI:https://sksinghdeo.github.io/contact/assets/myimage.JPG
 END:VCARD

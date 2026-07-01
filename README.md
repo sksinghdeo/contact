@@ -1,23 +1,30 @@
-# Shashank Singh Deo Contact Page
+# Contact Page
 
-Upload everything inside this folder to your GitHub repo root.
+A polished GitHub Pages contact/link hub for Shashank Singh Deo.
 
-Expected GitHub Pages URL if your repo is named `contact`:
-https://singhdeoshashank.github.io/contact/
+## Pages
 
-Direct vCard URL:
-https://singhdeoshashank.github.io/contact/Shashank_Singh_Deo.vcf
+- `index.html` — public link hub for resume, LinkedIn, GitHub, projects, portfolio, scheduling, and contact card.
+- `contact.html` — direct contact card with phone, email, LinkedIn, GitHub, location, scheduling, and downloadable vCard.
+- `Shashank_Singh_Deo.vcf` — contact card import file.
+- `styles.css` — responsive glass/neon portfolio styling.
 
-Files:
-- index.html = main link page
-- contact.html = contact-card page
-- Shashank_Singh_Deo.vcf = contact card file
-- qr.html = page that generates QR code
-- Shashank_Profile_QR.png = static QR image
-- styles.css
-- assets/ = images/icons
+## Notes
 
-If your repo is NOT named `contact`, update:
-- qr.html profileLink
-- PHOTO URL inside Shashank_Singh_Deo.vcf
-- regenerate Shashank_Profile_QR.png
+The page uses `assets/myimage.JPG` if it exists. If that image is missing, the layout falls back to an initials avatar so the page still looks clean.
+
+## GitHub Pages
+
+Recommended Pages setting:
+
+```text
+Source: Deploy from a branch
+Branch: main
+Folder: /root
+```
+
+Public URL:
+
+```text
+https://sksinghdeo.github.io/contact/
+```
